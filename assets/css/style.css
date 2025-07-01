@@ -66,6 +66,37 @@ h2{
 #services .card{
     margin-bottom: 1.5rem;
 }
+
+/*Media Queries*/
+
+/*medium screens: tablets (768px and above)*/
+@media screen and (min-width:768px){
+    /* to make sure all the card footers line up*/
+    #services .card-body{
+        min-height:191px;
+    }
+}
+/*large screens 992px*/
+@media screen and (min-width:992px){
+    /* to make sure all the card footers line up*/
+    #services .card-body{
+        min-height:auto;
+    }
+}
+/*extra large screens: 1200 px and above*/
+@media  screen and (min-width:1200px) {
+    #services .card-body{
+        min-height: 220px;
+    }
+}
+/*extra extra large screens: 1400 px and above*/
+@media  screen and (min-width:1400px) {
+    #services .card-body{
+        min-height: 195px;
+    }
+}
+
+/*redundant css*/
 /* grid visualisation for CSS testing
 .container, 
 .row{
