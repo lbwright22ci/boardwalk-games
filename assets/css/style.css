@@ -27,6 +27,17 @@ h3{
     color:var(--highlight-color);
 }
 
+/* grid visualisation for CSS testing*/
+.container, 
+.row{
+    border: 2px solid black;
+}
+
+.col-12{
+    border:2px solid white;
+    background-color: lightgrey;
+}
+
 header{
     /* background-color: red; */
 }
