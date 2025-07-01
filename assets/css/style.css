@@ -69,8 +69,9 @@ h2{
 
 /*games section*/
 /*remove border from cards*/
-#new-games.section .card{
-    border-color:transparent;
+#new-games .card,
+#fav-games .card{
+    border:none;
 }
 
 /*Media Queries*/
