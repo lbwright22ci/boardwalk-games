@@ -67,6 +67,12 @@ h2{
     margin-bottom: 1.5rem;
 }
 
+/*games section*/
+/*remove border from cards*/
+#new-games.section .card{
+    border-color:transparent;
+}
+
 /*Media Queries*/
 
 /*medium screens: tablets (768px and above)*/
