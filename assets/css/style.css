@@ -90,6 +90,18 @@ h2{
     margin-bottom: 1.5rem;
 }
 
+/*events section*/
+#events .table-hover *:hover{
+    background-color:var(--secondary-color);
+    color:white;
+}
+#events mark{
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+    padding:0.5rem 1rem;
+}
+
 /*games section*/
 /*remove border from cards*/
 #new-games .card,
@@ -126,6 +138,7 @@ h2{
 #contact .table-dark *{
     background-color: transparent;
 }
+
 /*Media Queries*/
 
 /*medium screens: tablets (768px and above)*/
