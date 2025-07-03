@@ -91,15 +91,26 @@ h2{
 }
 
 /*events section*/
+#events .table{
+/*events table font size needs to be smaller so it doesn't overflow on xs screens. Size set back to 1rem in media query for sm screens and up*/
+font-size: 0.7rem;
+
+}
+
 #events .table-hover *:hover{
     background-color:var(--secondary-color);
     color:white;
 }
-#events mark{
+
+.student-discount{
     background-color: var(--highlight-color);
     color: white;
     font-weight: bold;
-    padding:0.5rem 1rem;
+    padding:5px 10px;
+    display: block;
+    margin: auto;
+    font-size: 0.8rem;
+    max-width:300px;
 }
 
 /*games section*/
@@ -142,6 +153,17 @@ h2{
 }
 
 /*Media Queries*/
+/*small screens: 578px and up*/
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
+}
+
 
 /*medium screens: tablets (768px and above)*/
 @media screen and (min-width:768px){
