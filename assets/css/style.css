@@ -138,6 +138,8 @@ font-size: 0.7rem;
     color:var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 #contact .social-links i{
@@ -191,15 +193,3 @@ font-size: 0.7rem;
         min-height: 195px;
     }
 }
-
-/*redundant css*/
-/* grid visualisation for CSS testing
-.container, 
-.row{
-    border: 2px solid black;
-}
-
-.col-12{
-    border:2px solid white;
-    background-color: lightgrey;
-} */
